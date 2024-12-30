@@ -1,6 +1,6 @@
 .product-section{
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .container{
   max-width: 1128px;
@@ -8,11 +8,119 @@
   padding: 0 15px;
 }
 .heading{
-  margin-bottom: 50px;
-  font-size: 46px;
+  margin-bottom: 20px;
+  font-size: 32px;
 }
-.paragraph-width{
-  max-width: 481px;
+ /* ===== */
+ 
+.second-heading {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 59.8px;
+    padding-bottom: 50px;
+}
+
+.custom-max-w {
+    max-width: 481px !important;
+}
+
+.border-radius-xl {
+    border-radius: 12px;
+}
+
+.table-bg {
+    background-color: #026070;
+}
+
+.border-b {
+    border-bottom: 0.75px solid #000000;
+}
+
+.table-parent {
+    justify-content: space-around;
+}
+
+.cards-img {
+    width: 320px;
+    height: 555px;
+    object-fit: cover;
+}
+
+.table-heading {
+    font-size: 12px;
+    line-height: 15.6px;
+    color: #000000;
+    padding: 27px 19px !important;
+    width: 95px !important;
+}
+
+.table-box {
+    background: #026070 !important;
+    border-radius: 12px !important;
+}
+
+.bg-lightGreen {
+    background-color: #56E3CB !important;
+}
+
+.table-box {
+    border-spacing: 8px 0;
+    border-collapse: separate;
+    width: 100%;
+}
+
+.table-content {
+    padding: 18px 0px;
+    background-color: #fff;
+    border-top: 0.75px solid #000000;
+    border-bottom: 0.75px solid #000000;
+}
+
+.table-content:last-child {
+    background-color: #e8f5e9;
+}
+
+.table-heading {
+    padding: 12px 15px;
+}
+
+table th:first-child,
+table td:first-child {
+    border-left: none;
+}
+
+table tr th {
+    padding: 12px 15px;
+}
+
+.custom-border-b-none {
+    border-bottom: none !important;
+}
+
+.fees-year {
+    font-size: 8px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.border-top-radius {
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+}
+
+.custom-px {
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+.border-bottom-radius {
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+}
+
+.table-y-spacing {
+    padding: 51px 0;
 }
 /* ======================================= Custom color ========================================== */
 .bg-deep-blue{
@@ -27,24 +135,30 @@
 /* ====================================== box classes ================================================= */
 .box{
   border-radius: 16px;
-  padding:16px 26px;
-  max-width: 437px;
+  padding:16px 16px;
+  max-width: 674px;
 }
 .box-2{
   border-radius: 16px;
-  padding:133px 26px;
+  padding:32px 16px ;
   max-width: 674px;
   width: 100%;
 }
 /* ========================================= Para classes =============================================== */
 .paragraph{
-  max-width: 373px;
+  max-width: 674px;
 }
 .paragraph-two{
-  max-width: 365px;
+  max-width: 674px;
 }
 .paragraph-three{
-  max-width: 385px;
+  max-width: 674px;
+}
+.para-font{
+  font-size: 14px;
+}
+.paragraph-width{
+  max-width: 674px;
 }
 /* ========================================= Grid Classes ============================================== */
 .image-grid {
@@ -65,13 +179,13 @@
 }
 .grid-3{
   max-width: 100px;
-  grid-column: 3/4;
-  grid-row: 1/2;
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 .grid-4{
   max-width: 203px;
-  grid-column: 4/5;
-  grid-row: 1/2;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 .grid-5{
   max-width: 203px;
@@ -85,13 +199,13 @@
 }
 .grid-7{
   max-width: 203px;
-  grid-column: 4/6;
-  grid-row: 2/3;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 .grid-8{
   max-width: 100px;
-  grid-column: 6/7;
-  grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 .grid-9{
   max-width: 100px;
@@ -106,13 +220,13 @@
 }
 .grid-11{
   max-width: 100px;
-  grid-column: 4/5;
-  grid-row: 3/4;
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 .grid-12{
   max-width: 203px;
-  grid-column: 5/7;
-  grid-row: 3/4;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
  /* =============================================================== */
  .table-box{
@@ -121,5 +235,118 @@
   padding-right: 20px;
   padding-top: 52px;
   padding-bottom: 52px;
-  max-width: 437px;
+  max-width: 580px;
+ }
+
+ @media (min-width:1200px) {
+  .box-2{
+    min-width: 674px;
+    padding:133px 26px !important;
+  }
+  .heading{
+    margin-bottom: 50px;
+    font-size: 46px;
+  }
+  .box{
+    border-radius: 16px;
+    padding:16px 26px;
+    max-width: 437px;
+    min-height: 667px;
+  }
+  .product-section{
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .paragraph{
+    max-width: 373px;
+  }
+  .paragraph-two{
+    max-width: 365px;
+  }
+  .paragraph-three{
+    max-width: 385px;
+  }
+ }
+ @media (min-width:992px) {
+  .box-2{
+    border-radius: 16px;
+    padding:48px 26px ;
+    max-width: 674px;
+    width: 100%;
+  }
+  .para-font{
+    font-size: 16px;
+  }
+  .product-section{
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .paragraph-width{
+    max-width: 475px;
+  }
+  .heading{
+    margin-bottom: 36px;
+    font-size: 40px;
+  }
+  .grid-1{
+    max-width: 100px;
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+  .grid-2{
+    max-width: 203px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .grid-3{
+    max-width: 100px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .grid-4{
+    max-width: 203px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+  .grid-5{
+    max-width: 203px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-6{
+    max-width: 100px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .grid-7{
+    max-width: 203px;
+    grid-column: 4/6;
+    grid-row: 2/3;
+  }
+  .grid-8{
+    max-width: 100px;
+    grid-column: 6/7;
+    grid-row: 2/3;
+  }
+  .grid-9{
+    max-width: 100px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .grid-10{
+    max-width: 203px;
+    grid-column: 2/4;
+    grid-row: 3/4;
+   
+  }
+  .grid-11{
+    max-width: 100px;
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+  .grid-12{
+    max-width: 203px;
+    grid-column: 5/7;
+    grid-row: 3/4;
+  }
  }

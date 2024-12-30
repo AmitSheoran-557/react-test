@@ -9,7 +9,6 @@ const home = () => {
   return (
     <div>
         <Product/>
-        <Competition/>
         <Counter/>
         <AutoCounting/>
         <LoopCounting/>
