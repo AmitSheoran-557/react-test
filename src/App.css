@@ -1,0 +1,125 @@
+.product-section{
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.container{
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.heading{
+  margin-bottom: 50px;
+  font-size: 46px;
+}
+.paragraph-width{
+  max-width: 481px;
+}
+/* ======================================= Custom color ========================================== */
+.bg-deep-blue{
+  background-color: #191423;
+}
+.bg-purple{
+  background-color:  #362b4f;
+}
+.bg-dark-cyan{
+  background-color:#026070;
+}
+/* ====================================== box classes ================================================= */
+.box{
+  border-radius: 16px;
+  padding:16px 26px;
+  max-width: 437px;
+}
+.box-2{
+  border-radius: 16px;
+  padding:133px 26px;
+  max-width: 674px;
+  width: 100%;
+}
+/* ========================================= Para classes =============================================== */
+.paragraph{
+  max-width: 373px;
+}
+.paragraph-two{
+  max-width: 365px;
+}
+.paragraph-three{
+  max-width: 385px;
+}
+/* ========================================= Grid Classes ============================================== */
+.image-grid {
+  grid-template-columns:auto;
+  grid-template-rows: auto; 
+  display: grid;
+  gap: 4px;  
+}
+.grid-1{
+  max-width: 100px;
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+.grid-2{
+  max-width: 203px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.grid-3{
+  max-width: 100px;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.grid-4{
+  max-width: 203px;
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.grid-5{
+  max-width: 203px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.grid-6{
+  max-width: 100px;
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.grid-7{
+  max-width: 203px;
+  grid-column: 4/6;
+  grid-row: 2/3;
+}
+.grid-8{
+  max-width: 100px;
+  grid-column: 6/7;
+  grid-row: 2/3;
+}
+.grid-9{
+  max-width: 100px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.grid-10{
+  max-width: 203px;
+  grid-column: 2/4;
+  grid-row: 3/4;
+ 
+}
+.grid-11{
+  max-width: 100px;
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.grid-12{
+  max-width: 203px;
+  grid-column: 5/7;
+  grid-row: 3/4;
+}
+ /* =============================================================== */
+ .table-box{
+  border-radius: 12px;
+  padding-left: 16px ;
+  padding-right: 20px;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  max-width: 437px;
+ }
