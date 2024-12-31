@@ -8,7 +8,6 @@ const ParamsCards = () => {
     const clickHandler = (name) => {
         setParams({ name: name.toLowerCase().replace(/\s+/g, '-') });
     };
-
     const newName = params.get("name");
    
     return (

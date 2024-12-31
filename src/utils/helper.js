@@ -6,7 +6,6 @@ export const COMPETITION_DESCRIPTION_LIST = [
     { description: " The current return and refund process centres around either traditional advice or software. By combining both together for an aggressively affordable fee, we think we can capture much of the demand for those people that feel competent in managing their own refunds / returns." },
     { description: " As well as being the cheapest in market, our product offers everything a sole trader needs in one place, whilst pricing innovation of zero commission rather than a commission, will drive customers that are particularly price sensitive." },
 ];
-
 export const COMPETITION_TABLE_LIST = [
     {
         feature: "Mobile App", rift: <CancelIcon />, taxscout: <CancelIcon />, coconut: <TickIcon />, pie: <TickIcon />,
