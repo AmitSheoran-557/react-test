@@ -21,8 +21,8 @@ const ParamsCards = () => {
                         <div className="d-flex flex-column justify-content-center align-items-center">
                             <div className="text-center p-2 bg-dark text-white rounded">
                                 <h2 className='fs-3'>{obj.tittle}</h2>
-                                <p>{obj.description}</p>
-                                <button>{obj.btnPara}</button>
+                                <p>{obj.description}</p> 
+                                <button>{obj.btnPara}</button> 
                             </div>
                         </div>
                     </div>

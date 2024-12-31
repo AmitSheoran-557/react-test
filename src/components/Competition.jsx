@@ -6,7 +6,7 @@ const Competition = () => {
         <div className='d-flex justify-content-center align-items-center min-vh-100 bg-deep-blue'>
             <div className="container mx-auto">
                 <div className="d-flex flex-wrap w-100 d-flex justify-content-center align-items-center">
-                    <div className="col-lg-6 col-12 d-flex justify-content-lg-start justify-content-center align-items-center">
+                    <div className="col-xl-6 col-12 d-flex justify-content-xl-start justify-content-center align-items-center">
                         <div >
                             <h2 className='heading text-white'>Competition</h2>
                             {COMPETITION_DESCRIPTION_LIST.map((item, index) => (
