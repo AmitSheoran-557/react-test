@@ -96,7 +96,7 @@ table tr th {
     border-bottom: none !important;
 }
 
-.fees-year {
+.fees {
     font-size: 8px;
     line-height: 120%;
     color: #000000;
@@ -113,7 +113,7 @@ table tr th {
   padding-right: 31px;
 }
 
-.border-bottom-radius {
+.bottom-roundness {
     border-bottom-left-radius: 6px !important;
     border-bottom-right-radius: 6px !important;
 }

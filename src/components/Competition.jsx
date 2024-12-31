@@ -29,10 +29,10 @@ const Competition = () => {
                                     {COMPETITION_TABLE_LIST.map((obj, i) => (
                                         <tr key={i}>
                                             <td className={`text-white fw-normal table-content bg-transparent custom-border-b-none`}>{obj.feature}</td>
-                                            <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-content custom-border-b-none`}>{obj.rift}</td>
-                                            <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-content custom-border-b-none`}>{obj.taxscout}</td>
-                                            <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-content custom-border-b-none`}>{obj.coconut}</td>
-                                            <td className={`text-center bg-lightGreen table-content custom-border-b-none ${i === 5 ? 'fees-year border-bottom-radius' : ''}`}>{obj.pie}</td>
+                                            <td className={`text-center ${i === 5 ? 'fees-year bottom-roundness' : ''} bg-white table-content custom-border-b-none`}>{obj.rift}</td>
+                                            <td className={`text-center ${i === 5 ? 'fees-year bottom-roundness' : ''} bg-white table-content custom-border-b-none`}>{obj.taxscout}</td>
+                                            <td className={`text-center ${i === 5 ? 'fees-year bottom-roundness' : ''} bg-white table-content custom-border-b-none`}>{obj.coconut}</td>
+                                            <td className={`text-center bg-lightGreen table-content custom-border-b-none ${i === 5 ? 'fees-year bottom-roundness' : ''}`}>{obj.pie}</td>
                                         </tr>
                                     ))}
                                 </tbody>
